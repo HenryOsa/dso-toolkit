@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## NEXT
 
+### Deprecated
+* Het html/css tooltip component is deprecated. Stap over naar het `<dso-tooltip>` webcomponent. ([#2017](https://github.com/dso-toolkit/dso-toolkit/issues/2017))
+
 ### Added
 * Map control: `dsoToggle` event bij het in en uitklappen van kaartlagen ([#2033](https://github.com/dso-toolkit/dso-toolkit/issues/2033))
 
