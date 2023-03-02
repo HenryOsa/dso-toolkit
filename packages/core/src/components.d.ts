@@ -19,7 +19,6 @@ import { ListButtonChangeEvent, ListButtonSelectedEvent } from "./components/lis
 import { BaseLayer, BaseLayerChangeEvent } from "./components/map-base-layers/map-base-layers.interfaces";
 import { MapControlsToggleEvent } from "./components/map-controls/map-controls.interfaces";
 import { Overlay, OverlayChangeEvent } from "./components/map-overlays/map-overlays.interfaces";
-import { ModalRole } from "./components/modal/modal";
 import { DsoModalCloseEvent } from "./components/modal/modal.interfaces";
 import { OzonContentAnchorClick, OzonContentClick } from "./components/ozon-content/ozon-content.interfaces";
 import { PaginationSelectPageEvent } from "./components/pagination/pagination.interfaces";
@@ -320,7 +319,7 @@ export namespace Components {
         /**
           * the role for the modal `dialog` | `alert` | `alertdialog` defaults to `dialog`
          */
-        "role": ModalRole;
+        "role": string;
         /**
           * when `false` the close button in the header will not be rendered. Defaults to `true`
          */
@@ -1168,7 +1167,7 @@ declare namespace LocalJSX {
         /**
           * the role for the modal `dialog` | `alert` | `alertdialog` defaults to `dialog`
          */
-        "role"?: ModalRole;
+        "role"?: string;
         /**
           * when `false` the close button in the header will not be rendered. Defaults to `true`
          */

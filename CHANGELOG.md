@@ -5,7 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## NEXT
 
-### 52.0.0
+### Added
+* Controller voor het DsoModal component ([#1983](https://github.com/dso-toolkit/dso-toolkit/issues/1983))
+
+## 52.0.0
 
 ### Added
 * Ozon Content: Ondersteuning `<NieuweTekst>`, `<VerwijderdeTekst>`, `<table wijzigactie="verwijder">` & `<table wijzigactie="voegtoe">` ([#2060](https://github.com/dso-toolkit/dso-toolkit/issues/2060))
