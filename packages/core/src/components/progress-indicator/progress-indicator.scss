@@ -4,6 +4,18 @@
 @include utilities.box-sizing();
 @include progress-indicator.root();
 
+:host {
+  @media only percy {
+    .spinner {
+      animation: none;
+
+      .path {
+        animation: none;
+      }
+    }
+  }
+}
+
 :host([block]) {
   @include progress-indicator.block();
 }
